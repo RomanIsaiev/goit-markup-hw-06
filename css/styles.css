@@ -715,11 +715,6 @@ body {
   background-color: var(--hero-background-color);
 }
 
-/* .footer-subscribe input:hover,
-.footer-subscribe input:focus {
-  border-color: var(--filter-button-color);
-} */
-
 .footer-label-input placeholder {
   font-size: 12px;
   line-height: 2;
