@@ -516,7 +516,7 @@ body {
 .our-team .social-link:hover,
 .our-team .social-link:focus {
   background-color: var(--active-button-background-color);
-  outline: none;
+  /* outline: none; */
 }
 
 /* .our-team .social-list-item {
@@ -685,7 +685,7 @@ body {
 .footer .social-link:hover,
 .footer .social-link:focus {
   background-color: #31d0aa;
-  outline: none;
+  /* outline: none; */
 }
 
 .footer-subscribe-title {
@@ -956,7 +956,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  outline: none;
+  /* outline: none; */
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
