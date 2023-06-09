@@ -722,6 +722,7 @@ body {
 .footer-label-input {
   width: 264px;
   height: 40px;
+  color: var(--hero-button-text-color);
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
@@ -1138,7 +1139,6 @@ body {
 }
 
 .label-privacy-policy {
-  display: flex;
   align-items: center;
   margin: 0;
   font-size: 12px;
@@ -1156,7 +1156,7 @@ body {
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  fill: var(--light-mode-background-color);
+  fill: transparent;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -1164,7 +1164,7 @@ body {
 }
 
 .modal-check:checked + .label-privacy-policy .new-checkbox {
-  fill: var(--hero-button-text-color);
+  fill: var(--light-mode-background-color);
   border: none;
   background-color: var(--acctent-hover-color);
 }
